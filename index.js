@@ -1,14 +1,13 @@
+
 const express = require("express");
 const server = express();
 server.use(express.json());
 
-// Personal info
 const NAME = "kumar_vaibhav";
 const BIRTHDATE = "07052004";
 const EMAIL_ID = "kumarvaibhav2022@vitbhopal.ac.in";
 const ROLL_NO = "22BHI10183";
 
-// Utility: reverse + alternating case
 function makeFancyString(text) {
   return text
     .split("")
